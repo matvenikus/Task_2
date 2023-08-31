@@ -3,13 +3,13 @@ public class Main {
         int money = 20;
         int bonus = 100;
 
-        int bonus_amount = money / bonus;
+        int bonusAmount = money / bonus;
 
         if (money < 999) {
-            bonus_amount = 0;
+            bonusAmount = 0;
         }
 
-        int total = money + bonus_amount;
+        int total = money + bonusAmount;
         System.out.println("Сумма на счету: " + total);
     }
 }
